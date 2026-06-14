@@ -1,0 +1,50 @@
+<svg width="600" height="180" viewBox="0 0 600 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Shield -->
+    <path d="M90 20
+             L145 40
+             L145 110
+             L90 130
+             L35 110
+             L35 40
+             Z"
+          fill="#0F2D6B"/>
+
+    <!-- Shield Inner -->
+    <path d="M90 35
+             L132 50
+             L132 102
+             L90 117
+             L48 102
+             L48 50
+             Z"
+          fill="white"/>
+
+    <!-- M Symbol -->
+    <path d="M60 98V55L90 88L120 55V98H106V76L90 94L74 76V98H60Z"
+          fill="#0F2D6B"/>
+
+    <!-- Orange Diamond -->
+    <path d="M90 42
+             L103 58
+             L90 82
+             L77 58
+             Z"
+          fill="#FF9900"/>
+
+    <!-- Company Name -->
+    <text x="170" y="88"
+          font-family="Montserrat, Arial, sans-serif"
+          font-size="54"
+          font-weight="700"
+          fill="#0F2D6B">
+        MERVIX
+    </text>
+
+    <text x="175" y="126"
+          font-family="Montserrat, Arial, sans-serif"
+          font-size="28"
+          font-weight="600"
+          fill="#FF9900">
+        LLC
+    </text>
+</svg>
