@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mervix LLC</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    color:#111827;
+    background:#ffffff;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background:white;
+    border-bottom:1px solid #eee;
+    z-index:100;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    font-size:1.4rem;
+    font-weight:700;
+    letter-spacing:-0.5px;
+}
+
+.nav-links{
+    display:flex;
+    gap:24px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#374151;
+    font-weight:500;
+}
+
+.hero{
+    padding:120px 0;
+    text-align:center;
+    background:linear-gradient(135deg,#f8fafc,#eef2ff);
+}
+
+.hero h1{
+    font-size:3.5rem;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#4b5563;
+    font-size:1.1rem;
+}
+
+.hero-buttons{
+    margin-top:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:600;
+    margin:5px;
+}
+
+.btn-primary{
+    background:#4f46e5;
+    color:white;
+}
+
+.btn-secondary{
+    border:1px solid #d1d5db;
+    color:#111827;
+}
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#6b7280;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:24px;
+}
+
+.card{
+    padding:30px;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    background:white;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.about{
+    background:#f9fafb;
+}
+
+.about-content{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact-box{
+    max-width:600px;
+    margin:auto;
+    background:#f9fafb;
+    padding:40px;
+    border-radius:20px;
+}
+
+footer{
+    border-top:1px solid #eee;
+    padding:30px 0;
+    text-align:center;
+    color:#6b7280;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2.4rem;
+    }
+
+    .nav-links{
+        display:none;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container nav">
+    <div class="logo">Mervix LLC</div>
+
+    <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+    <h1>Building Trusted Retail & E-Commerce Solutions</h1>
+
+    <p>
+        Mervix LLC is committed to delivering quality products,
+        reliable service, and exceptional customer experiences across
+        modern retail and online marketplaces.
+    </p>
+
+    <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+    </div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+    <div class="section-title">
+        <h2>What We Do</h2>
+        <p>Focused on growth, quality, and customer satisfaction.</p>
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Retail Operations</h3>
+            <p>
+                Efficient sourcing, inventory management,
+                and retail execution.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>E-Commerce</h3>
+            <p>
+                Online marketplace management and
+                digital retail growth strategies.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Customer Experience</h3>
+            <p>
+                Delivering products and services that
+                create long-term customer trust.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="container">
+
+    <div class="section-title">
+        <h2>About Mervix</h2>
+    </div>
+
+    <div class="about-content">
+        <p>
+            Mervix LLC is a forward-thinking company focused on retail,
+            e-commerce, and customer-centered business solutions.
+            Our mission is to build trusted brands, provide exceptional value,
+            and create sustainable growth through innovation and integrity.
+        </p>
+    </div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container">
+
+    <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>We look forward to hearing from you.</p>
+    </div>
+
+    <div class="contact-box">
+        <h3>Mervix LLC</h3>
+        <p>Email: hello@mervix.com</p>
+        <p>Wyoming, United States</p>
+    </div>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+    © 2026 Mervix LLC. All Rights Reserved.
+</div>
+</footer>
+
+</body>
+</html>
